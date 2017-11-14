@@ -32,8 +32,14 @@ public class GirlsController {
 	
 	/**
 	 * 
-	 * @param resquest
-	 * @return
+	 * @Title: getAllOne   
+	 * @Description: TODO(获取所有信息)
+	 * @author: IStone
+	 * @date:   2017年11月14日 上午11:53:50   
+	 * @param: @param resquest
+	 * @param: @return      
+	 * @return: ModelAndView      
+	 * @throws
 	 */
 	@RequestMapping(value = "getAllOne.do", produces = "application/json;charset=utf-8")
 	@ResponseBody
